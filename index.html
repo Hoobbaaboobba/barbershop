@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap&_v=20230329191711"
+      rel="stylesheet"
+    />
+    <title>Главная</title>
+  </head>
+
+  <body style="background-image: url(img/background.png)">
+    <!-- header -->
+    <header class="header" id="header">
+      <div class="header__container">
+        <ul class="navbar__container">
+          <li class="logo">
+            <a href="index.html">
+              <img src="img/logo.png" alt="" />
+            </a>
+          </li>
+          <li><a href="">Информация</a></li>
+          <li><a href="">Новости</a></li>
+          <li><a href="priceList.html">Прайс-лис</a></li>
+          <li><a href="shoplist.html">Магазин</a></li>
+          <li><a href="">Контакты</a></li>
+        </ul>
+        <a href="#popup" class="entry">
+          <button>
+            <svg
+              width="18"
+              height="20"
+              viewBox="0 0 18 20"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M13.975 0.375H7.8C5.9125 0.375 4.375 1.9125 4.375 3.8V6.25H6.125V3.8C6.125 2.875 6.875 2.125 7.8 2.125H13.975C14.9 2.125 15.65 2.875 15.65 3.8V16.1875C15.65 17.1125 14.9 17.8625 13.975 17.8625H7.8C6.875 17.8625 6.125 17.1125 6.125 16.1875V13.75H4.375V16.2C4.375 18.0875 5.9125 19.625 7.8 19.625H13.975C15.8625 19.625 17.4 18.0875 17.4 16.2V3.8C17.4 1.9125 15.8625 0.375 13.975 0.375ZM9 15L14 10L9 5V9.125H0.25V10.875H9V15Z"
+                fill="#484848"
+              />
+            </svg>
+            Войти
+          </button>
+        </a>
+      </div>
+    </header>
+
+    <!-- main -->
+    <main class="main">
+      <div class="main__container">
+        <div class="text__container">
+          <img src="img/borodinski.png" alt="" />
+        </div>
+        <div class="box__container">
+          <div class="box">
+            <h3>Быстро</h3>
+            <div class="square" style="margin: 15px"></div>
+            <p>
+              МЫ ДЕЛАЕМ СВОЮ РАБОТУ БЫСТРО! ДВА ЧАСА ПРОЛЕТЯТ НЕЗАМЕТНО И ВЫ —
+              СЧАСТЛИВЫЙ ОБЛАДАТЕЛЬ СТИЛЬНОЙ СТРИЖКИ-МИНУТКИ!
+            </p>
+          </div>
+          <div class="box">
+            <h3>КРУТО</h3>
+            <div class="square"></div>
+            <p>
+              ЗАБУДЬТЕ, КАК ВЫ СТРИГЛИСЬ РАНЬШЕ. МЫ СДЕЛАЕМ ИЗ ВАС ЗВЕЗДУ
+              ФУТБОЛА ИЛИ КИНО! ВО ВСЯКОМ СЛУЧАЕ ВНЕШНЕ.
+            </p>
+          </div>
+          <div class="box">
+            <h3>ДОРОГО</h3>
+            <div class="square"></div>
+            <p>
+              НАШИ МАСТЕРА — ПРОФЕССИОНАЛЫ СВОЕГО ДЕЛА И НЕ МОГУТ СТОИТЬ ДЕШЕВО.
+              К ТОМУ ЖЕ, РАЗВЕ ЦЕНА НЕ ДАЕТ ОПРЕДЕЛЕННЫЙ СТАТУС?
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- news -->
+    <section class="news__container">
+      <div
+        class="news_section"
+        style="background-image: url(img/whiteBackground.png)"
+      >
+        <div class="news__container-item">
+          <h2 style="font-size: 30px">новости</h2>
+          <div class="news_text">
+            <p>
+              Нам наконец завезли ягермайстер! теперь вы можете пропустить
+              стаканчик во время стрижки
+            </p>
+            <p style="text-transform: lowercase">11 января</p>
+          </div>
+          <div class="news_text">
+            <p>
+              в нашей команде пополнение, борис "бритва" стригунец, обладатель
+              множкства титулов и наград поплнил наши стройные ряды
+            </p>
+            <p style="text-transform: lowercase">18 января</p>
+          </div>
+          <button>все новости</button>
+        </div>
+        <div class="news__container-item2">
+          <h2 style="font-size: 30px">фотогалерея</h2>
+          <img
+            src="img/mainImg.png"
+            alt=""
+            style="width: 320px; height: 160px"
+          />
+          <div class="btns">
+            <div class="btns_button">назад</div>
+            <div class="btns_button">вперед</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- contacts -->
+    <section class="contacts__section">
+      <div
+        class="contacts__container"
+        style="background-image: url(img/whiteBackground.png)"
+      >
+        <div class="contacts__container-item1">
+          <h2>Контактная информация</h2>
+          <div class="contacts_text">
+            <p>Барбершоп "бородинский"</p>
+            <p>Адрес: г.санкт-петербург, б.конюшенная,д.19/8</p>
+            <p>телефон: +7(495)666-02-66</p>
+          </div>
+          <div class="contacts_text">
+            <p>время работы:</p>
+            <p>пн-пт: с 10:00 до 22:00</p>
+            <p>сб-вс: с 10:00 до 19:00</p>
+          </div>
+          <div class="contacts_btns">
+            <button><a href="#map" style="color:white;">как проехать</a></button>
+            <button>обратная связь</button>
+          </div>
+        </div>
+        <div class="contacts__container-item2">
+          <h2>Записаться</h2>
+          <p>
+            Укажите желаемую дату и время и мы свяжемся с вами для подтверждения
+            брони
+          </p>
+          <div class="inputs">
+            <div class="input">
+              <p>дата</p>
+              <input type="date" />
+            </div>
+            <div class="input">
+              <p>время</p>
+              <input type="date" />
+            </div>
+            <div class="input">
+              <p>ваше имя</p>
+              <input type="text" />
+            </div>
+            <div class="input">
+              <p>телефон</p>
+              <input type="text" />
+            </div>
+          </div>
+          <button>отправить</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer
+      class="footer_section"
+      style="background-image: url('img/footerbackground.png')"
+    >
+      <div class="footer__container">
+        <div class="box">
+          <p>БАРБЕРШОП «БОРОДИНСКИЙ»</p>
+          <p>АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, УЛ. Б.</p>
+          <p>КОНЮШЕННАЯ, Д. 19/8</p>
+          <p style="text-decoration: underline">КАК НАС НАЙТИ?</p>
+          <p>ТЕЛЕФОН: +7 (495) 666-02-66</p>
+        </div>
+        <div class="box">
+          <p>ДАВАЙТЕ ДРУЖИТЬ</p>
+          <div class="social_media">
+            <img src="img/vk.svg" alt="" />
+            <img src="img/facebook.svg" alt="" />
+            <img src="img/instagram.svg" alt="" />
+          </div>
+        </div>
+        <div class="box">
+          <p>разработано:</p>
+          <button>HTML ACADEMY</button>
+        </div>
+      </div>
+    </footer>
+    <div id="popup" class="popup_login">
+      <a href="#header" class="popup_close"></a>
+      <div class="popup_body">
+        <form class="popup_container" style="background: white; z-index: 10000;">
+          <a href="" style="position: absolute; left: 490px; bottom: 340px; font-weight: 800; color: white;">&#9587</a>
+          <h1>личный кабинет</h1>
+          <p>введите пожалуйста свой логин и пароль</p>
+          <div class="popup_input">
+            <input type="text" /><svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="15"
+              height="15"
+              viewBox="0 0 15 15"
+            >
+              <path
+                d="M13.31 11.5a2.38 2.38 0 0 0-.87-1.24 11.26 11.26 0 0 0-2.7-1.15 3.6 3.6 0 0 1-.65-.28.76.76 0 0 1-.29-.52 2.59 2.59 0 0 1 0-.31 6.73 6.73 0 0 0 1.07-3.64 2.14 2.14 0 0 0-2.41-2.45A2.14 2.14 0 0 0 5 4.36a6.64 6.64 0 0 0 1.23 3.73v.21a.75.75 0 0 1-.29.52 3.57 3.57 0 0 1-.65.28 11.21 11.21 0 0 0-2.7 1.13 2.46 2.46 0 0 0-.87 1.27 5.12 5.12 0 0 0-.22 1.61h12.03a5.12 5.12 0 0 0-.22-1.61z"
+              />
+            </svg>
+          </div>
+          <div class="popup_input">
+            <input type="text" /><svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="15"
+              height="15"
+              viewBox="0 0 15 15"
+            >
+              <path
+                d="M11.25 6.56V3.75a3.75 3.75 0 1 0-7.5 0v2.81a1.88 1.88 0 0 0-1.88 1.88v4.69A1.87 1.87 0 0 0 3.75 15h7.5a1.88 1.88 0 0 0 1.88-1.88V8.44a1.88 1.88 0 0 0-1.88-1.87zM8 11.11v1.55a.47.47 0 0 1-.94 0v-1.55a.92.92 0 0 1-.47-.79.94.94 0 1 1 1.87 0 .92.92 0 0 1-.47.79zm1.37-4.55H5.63V3.75a1.87 1.87 0 1 1 3.75 0v2.81z"
+              />
+            </svg>
+          </div>
+          <div class="remember">
+            <div class="remember_box">
+              <input type="checkbox" />
+              запомните меня
+            </div>
+            <a href="" style="text-decoration: underline">я забыл пароль!</a>
+          </div>
+          <a href="#header" style="color: white">
+            <button class="remember_button">
+              войти
+            </button>
+          </a>
+        </form>
+      </div>
+    </div>
+    <div class="map" id="map">
+      <a href="#header" class="map_backgrond"></a>
+      <div class="map_container">
+        <div class="map_script">
+          <a href="#header" style="position: relative; left: 610px; top: 20px; font-weight: 800; color: white;">&#9587</a>
+          <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A251f7d27e0615e6471d789314177ce32ef551596e10b563b977109a4b7a285fe&amp;width=600&amp;height=450&amp;lang=ru_RU&amp;scroll=true"></script>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
